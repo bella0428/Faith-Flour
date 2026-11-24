@@ -17,7 +17,7 @@ Instructions for the Claude session that has the website code. Swap the
 | Slug | `fudge-brownies` |
 | Photo | `public/products/fudge-brownies.png` (in this branch, transparent background, 1200×900 like the other product photos) |
 | Sizes sold | **half dozen (6)** and **dozen (12)** — no single brownies |
-| Prices | **ASK THE OWNER** — not decided yet |
+| Prices | **$22 half dozen, $40 dozen** — e.g. `[{ amount: 22, per: "half dozen" }, { amount: 40, per: "dozen" }]` (match the format the other bakes use) |
 | Hover color | **teddy bear brown** — use the site's existing `teddy` color, with a chocolate-chip touch (e.g. small chocolate-chip dots in the card decoration, `components/CardDecor.tsx`) |
 
 ## Recipe (one 8×8 pan = 12 brownies)
